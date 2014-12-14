@@ -10,11 +10,16 @@ body {
 }
 
 .logo {
-    height: 50px;
-    width: 50px;
-    border: 1px solid;
+    padding-left: 0;
 }
 
+.logo img {
+    height: 50px;
+}
+
+.login {
+    margin-top: 15px;
+}
 .row {
     margin: 0;
 }
@@ -30,6 +35,13 @@ body {
     background: #333;
     text-align: center;
     height: 400px !important;
+}
+
+#myCarousel .image1 img{
+    position: absolute;
+    height: 400px;
+    width: 958px;
+
 }
 
 #myCarousel .image2 img{
@@ -51,9 +63,3 @@ body {
     margin-left: 80px;
 }
 
-#myCarousel .image1 img{
-    position: absolute;
-    height: 400px;
-    width: 958px;
-
-}
