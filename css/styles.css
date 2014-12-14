@@ -1,13 +1,21 @@
-#wrapper {
+body {
+    background-color: #000000;
+}
+
+.wrapper {
     width: 960px;
-    height: 593px;
     margin: auto;
     border: 1px solid;
 
 }
 
-#logo {
-    height: 100px;
-    width: 100px;
+.logo {
+    height: 50px;
+    width: 50px;
     border: 1px solid;
 }
+
+.row {
+    margin: 0;
+}
+
