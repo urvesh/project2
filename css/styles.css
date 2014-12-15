@@ -17,6 +17,26 @@ body {
     height: 50px;
 }
 
+.navbar {
+    background-color:#BF2857;
+}
+
+.navbar li > a {
+    color: #eee;
+}
+
+.navbar li > a:hover{
+    color: #BF2857;
+}
+.nav-tabs.nav-justified > li > a {
+    border: none;
+}
+
+.nav-tabs.nav-justified > li > a:hover {
+    border-radius: 4px;
+}
+
+
 .login {
     margin-top: 15px;
 }
