@@ -88,3 +88,43 @@ body {
     height: 150px;
     margin-bottom: 20px;
 }
+
+/* Home */
+#keyboardpic {
+    display: inline-block;
+    float: left;
+    height: 140px;
+    width: 593px;
+}
+
+.A{
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 114px;
+}
+
+div > p {
+    float: left;
+}
+
+#appletext {
+    display: inline-block;
+    font-size: 12px;
+}
+
+#appletext h3 {
+    font-size: 14px;
+}
+
+#appletext h4 {
+    font-size: 13px;
+}
+
+#introducing {
+    display: inline-block;
+    height: 365px;
+    width: 365px;
+}
+
+/* History */
+
