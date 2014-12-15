@@ -33,13 +33,13 @@ body {
 #myCarousel .image1 img{
     position: absolute;
     height: 400px;
-    width: 958px;
+    width: 960px;
 
 }
 
 #myCarousel .image2 img{
     height: 500px;
-    width: 958px;
+    width: 960px;
     position: absolute;
     margin-top: -100px;
 }
@@ -62,4 +62,9 @@ body {
 
 .indent-item-2 {
     padding-left: 122px;
+}
+
+#advertising .content img {
+    height: 150px;
+    margin-bottom: 20px;
 }
