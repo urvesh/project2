@@ -124,10 +124,6 @@ body {
     width: 365px;
 }
 
-#video {
-    margin-top: -180px;
-    margin-left: 35px;
-}
 /* History */
 #jobs {
     height: 127px;
@@ -172,7 +168,6 @@ body {
     clear: both;
     text-align: center;
 }
-/*end history*/
 
 #orderForm table {
     width: 100%;
@@ -213,3 +208,15 @@ body {
     margin-top: 73px;
 }
 
+#registration input {
+    border: none;
+    border-radius: 4px;
+}
+
+#registration .row {
+    margin-bottom: 5px;
+}
+
+.newsletter img {
+    height: 400px;
+}

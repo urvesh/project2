@@ -6,7 +6,9 @@
     <link href="css/vendor/bootstrap-theme.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/vendor/jquery-1.11.1.min.js"></script>
+    <script src="js/vendor/jquery.validate.min.js"></script>
     <script src="js/vendor/bootstrap.js"></script>
+    <script src="js/main.js"></script>
     <title>Login</title>
 </head>
 <body>
@@ -44,21 +46,59 @@
             </ul>
         </nav>
 
-        <div class="row text-center">
-            <div class="col-md-4">
-                <p>
-                    News Letter Image
-                </p>
-
-                <p>
-                    News Letter description
-                </p>
+        <div class="row">
+            <div class="col-md-6 newsletter">
+                <img class="center-block" src="img/newsletter.jpg">
             </div>
 
-            <div class="col-md-8">
-                <p>
-                    Login form fields
-                </p>
+            <div class="col-md-6">
+                <form id="registration" novaliate>
+                    <div class="row">
+                        <h2 class="text-center">Login / Sign up</h2>
+
+                        <div class="row">
+                            <div class="col-md-3 col-md-push-2">
+                                First Name:
+                            </div>
+                            <div class="col-md-4 col-md-push-3">
+                                <input type="text" name="firstName" id="firstName">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3 col-md-push-2">
+                                Last Name:
+                            </div>
+                            <div class="col-md-4 col-md-push-3">
+                                <input type="text" name="lastName" id="lastName">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3 col-md-push-2">
+                                Email:
+                            </div>
+                            <div class="col-md-4 col-md-push-3">
+                                <input type="text" name="email" id="email">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3 col-md-push-2">
+                                Password:
+                            </div>
+                            <div class="col-md-4 col-md-push-3">
+                                <input type="text" name="password" id="password">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <button class="col-md-3 col-md-push-5" type="submit">Connect</button>
+                        </div>
+                    </div>
+
+                </form>
+
             </div>
 
         </div>
