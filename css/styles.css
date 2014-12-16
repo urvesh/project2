@@ -1,11 +1,12 @@
 body {
-    /*background-color: #000000;*/
+    background-color: #000000;
+    color: #BF2857;
 }
 
 .wrapper {
     width: 960px;
     margin: auto;
-    border: 1px solid;
+    /*border: 1px solid;*/
 
 }
 
@@ -18,7 +19,8 @@ body {
 }
 
 .navbar {
-    background-color:#BF2857;
+    /*background-color:#BF2857;*/
+    background-color: #1e55d9;
 }
 
 .navbar li > a {
@@ -169,4 +171,18 @@ body {
 #appleii p {
     clear: both;
     text-align: center;
+}
+
+#orderForm table {
+    width: 100%;
+}
+
+#orderForm table th {
+    font-weight: bold;
+    text-align: center;
+}
+
+#orderForm table tr, #orderForm table td {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
 }
