@@ -127,4 +127,44 @@ div > p {
 }
 
 /* History */
+#jobs {
+    height: 127px;
+    width: 732px;
+    border: 1px solid;
+}
+#jobs > p {
+    display: inline-block;
+    width: 500px;
+    height:127px;
+    margin-left: 10px;
+}
+#wozniak {
+    height: 127px;
+    width: 732px;
+    border: 1px solid;
+}
+#wozniak > p{
+    display: inline-block;
+    width: 500px;
+    height: 127px;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+#appleinc {
+    height: 127px;
+    width: 732px;
+    border: 1px solid;
+}
+#appleinc > p {
+    display: inline-block;
+    width: 500px;
+    height: 127px;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+#appleii {
+    width: 732px;
+    height: 374px;
+    border: 1px solid;
+}
 
