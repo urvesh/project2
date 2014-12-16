@@ -103,10 +103,6 @@ body {
     margin-left: 114px;
 }
 
-div > p {
-    float: left;
-}
-
 #appletext {
     display: inline-block;
     font-size: 12px;
@@ -134,10 +130,11 @@ div > p {
 }
 #jobs > p {
     display: inline-block;
-    width: 500px;
-    height:127px;
+    float: left;
     margin-left: 10px;
-}
+    width: 500px;
+
+  }
 #wozniak {
     height: 127px;
     width: 732px;
@@ -148,7 +145,6 @@ div > p {
     width: 500px;
     height: 127px;
     margin-left: 10px;
-    margin-top: -10px;
 }
 #appleinc {
     height: 127px;
@@ -160,7 +156,6 @@ div > p {
     width: 500px;
     height: 127px;
     margin-left: 10px;
-    margin-top: -10px;
 }
 #appleii {
     width: 732px;
