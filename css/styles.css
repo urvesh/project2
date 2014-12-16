@@ -133,7 +133,6 @@ body {
     float: left;
     margin-left: 10px;
     width: 500px;
-
   }
 #wozniak {
     height: 127px;
@@ -159,7 +158,15 @@ body {
 }
 #appleii {
     width: 732px;
-    height: 374px;
+    height: 474px;
     border: 1px solid;
 }
-
+#appleii h1 {
+    float: right;
+    text-align: center;
+    font-size: 56px;
+}
+#appleii p {
+    clear: both;
+    text-align: center;
+}
