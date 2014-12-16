@@ -186,3 +186,29 @@ body {
     border-top: 1px solid;
     border-bottom: 1px solid;
 }
+
+#orderForm .order-form {
+    border: 10px dashed #1e55d9;
+}
+
+#orderForm .order-form h2 {
+    margin-top: 0;
+}
+
+#orderForm .order-form select {
+    margin-left: 15px;
+}
+
+#orderForm .order-form input[type='text'] {
+    border-radius: 4px;
+    border: none;
+}
+
+#orderForm .order-form .row {
+    margin-bottom: 5px;
+}
+
+#orderForm .order-form h4 {
+    margin-top: 73px;
+}
+
