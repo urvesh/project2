@@ -124,6 +124,10 @@ body {
     width: 365px;
 }
 
+#video {
+    margin-top: -180px;
+    margin-left: 35px;
+}
 /* History */
 #jobs {
     height: 127px;
@@ -168,6 +172,7 @@ body {
     clear: both;
     text-align: center;
 }
+/*end history*/
 
 #orderForm table {
     width: 100%;
