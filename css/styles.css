@@ -128,7 +128,6 @@ body {
 #jobs {
     height: 127px;
     width: 732px;
-    border: 1px solid;
 }
 #jobs > p {
     display: inline-block;
@@ -139,7 +138,6 @@ body {
 #wozniak {
     height: 127px;
     width: 732px;
-    border: 1px solid;
 }
 #wozniak > p{
     display: inline-block;
@@ -150,7 +148,6 @@ body {
 #appleinc {
     height: 127px;
     width: 732px;
-    border: 1px solid;
 }
 #appleinc > p {
     display: inline-block;
@@ -161,7 +158,6 @@ body {
 #appleii {
     width: 732px;
     height: 474px;
-    border: 1px solid;
 }
 #appleii h1 {
     float: right;
